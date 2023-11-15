@@ -12,7 +12,3 @@ app.listen(port, () => {
 app.get("/", (req, res) => {
   res.render("index");
 });
-
-app.get("/game", (req, res) => {
-  app.use(express.static(path.join(__dirname, "Game")));
-});
