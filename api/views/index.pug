@@ -1,0 +1,18 @@
+html 
+    head 
+        meta(charset="UTF-8")
+        title *spelnamn*
+        script(src="game.js") 
+        link(rel="stylesheet" href="TemplateData/style.css")
+    body 
+        #unity-container.unity-desktop
+        canvas#unity-canvas(width='960' height='600' tabindex='-1')
+        #unity-loading-bar
+            #unity-logo
+            #unity-progress-bar-empty
+            #unity-progress-bar-full
+        #unity-warning
+        #unity-footer
+            #unity-webgl-logo
+            #unity-fullscreen-button
+            #unity-build-title My project (4)
